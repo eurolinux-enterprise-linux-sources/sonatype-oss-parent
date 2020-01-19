@@ -1,6 +1,6 @@
 Name:           sonatype-oss-parent
 Version:        7
-Release:        5%{?dist}
+Release:        6%{?dist}
 Summary:        Sonatype OSS Parent
 
 Group:          Development/Libraries
@@ -35,6 +35,9 @@ cp -p %{SOURCE1} LICENSE
 %doc LICENSE
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 7-6
+- Mass rebuild 2013-12-27
+
 * Fri Feb 15 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 7-5
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
